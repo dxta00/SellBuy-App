@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/sell"
+
+        android:label="SellBuy"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SellBuy"
+        tools:targetApi="31">
+        <activity
+            android:name=".Thankyou"
+            android:exported="false" />
+        <activity
+            android:name=".Buy"
+            android:exported="false" />
+        <activity
+            android:name=".BuyHomePage"
+            android:exported="false"
+            android:label="@string/title_activity_buy_home_page"
+            android:theme="@style/Theme.SellBuy" />
+        <activity
+            android:name=".Update_page"
+            android:exported="false" />
+        <activity
+            android:name=".BuyHomepage"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignup"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".SellHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSignup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nameTextView" type="id" />
+    <item name="recyclerView" type="id" />
+    <item name="imageView" type="id" />
+    <item name="descriptionTextView" type="id" />
+    <item name="priceTextView" type="id" />
+    <item name="deleteTextView" type="id" />
+    <item name="editTextView" type="id" />
+</resources>

@@ -1,0 +1,76 @@
+<!-- item_product.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="132dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <!-- Product Details -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Product Name -->
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Product Description -->
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Description"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Product Price -->
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Price"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Edit and Delete Options -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Edit TextView -->
+            <TextView
+                android:id="@+id/learnMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/purple"
+                android:text="Learn More"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Delete TextView -->
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

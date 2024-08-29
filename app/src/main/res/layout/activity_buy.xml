@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddFragment">
+
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUY NOW!!!"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ad168b"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/usrname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/usraddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Address"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:id="@+id/usrphnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Number"
+            android:background="@drawable/textbox"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opps!! only cash on delivery available or change the plan.."
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/button"
+            android:text="Buy"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+    </LinearLayout></layout>
+
+
